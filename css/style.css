@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+    min-height: 100%;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul>li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    max-width: 1330px;
+    margin-left: 110px ;
+}
+
+.hero {
+    background-image: url(../img/index-background-desktop.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding-bottom: 54px;
+}
+.header {
+    display: flex;
+}
+.logo__img-wrap {
+  margin-top: 53px;
+  
+}
+.logo {
+}
+.nav {
+    margin-top: 71px;
+}
+.nav__list {
+    display: flex;
+    margin-left: 600px;
+}
+.nav__list:nth-child(2) {
+    margin-right: 32px;
+}
+.nav__list:last-child {
+    margin-right: 0; 
+}
+.nav__item {
+    margin-right: 37px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+.nav__link {
+    color: white;
+}
+.hero__content {
+    display: flex;
+}
+.hero__info {
+    margin-left: 81px;
+    margin-top: 111px;
+}
+.hero__title {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.hero__text {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 52px;
+}
+.btn {
+    flex-direction: row;
+    align-items: center;
+    padding: 23px 27px;
+    gap: 4px;
+    background: #68B738;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 0px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: none;
+}
+.hero__decor {
+    margin-top: 29px;
+}
+.hero__img-wrap {
+}
+.hero__img {
+}
